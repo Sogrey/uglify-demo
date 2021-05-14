@@ -5,7 +5,7 @@ gulp.task('script', function () {
   // 找到需要压缩的文件
   return (
     gulp
-      .src('input')
+      .src('input/*.js')
       // 压缩文件
       .pipe(uglify())
       // 另存压缩后文件
