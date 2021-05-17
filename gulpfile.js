@@ -14,3 +14,17 @@ gulp.task('script', function () {
 });
 gulp.task('default', gulp.series('script'));
 
+
+// 合并
+
+// const { src, dest, parallel } = require('gulp');
+// const concat = require('gulp-concat');
+
+// function js() {
+//   return src('input/*.js', { sourcemaps: true })
+//     .pipe(concat('app.min.js'))
+//     .pipe(dest('build/js', { sourcemaps: true }))
+// }
+
+// exports.js = js;
+// exports.default = parallel(js);
